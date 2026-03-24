@@ -23,6 +23,7 @@ function zmienKolory() {
         kolorTxtG =0;
     }
 }
+zmienKolory();
 setInterval(zmienKolory, 1)
 
 window.addEventListener("unload", () => {
